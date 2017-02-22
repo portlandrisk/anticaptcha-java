@@ -1,3 +1,5 @@
+Download the full project (2.5 mb): https://yadi.sk/d/6V8NfwDe3EQ7z4
+
 You need Java 1.8 installed.
 This is an IntelliJ IDEA project and it should be compatible with Eclipse (but not tested).
 

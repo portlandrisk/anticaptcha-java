@@ -1,12 +1,15 @@
-You need a Java 1.8. 
-For IntelliJ IDEA users: open a project that is in IDEA_and_Eclipse_compatible_project dir.
+You need a Java 1.8.
+The project is compatible with IntelliJ IDEA and Eclipse.
 
-For command line users:
+If you want to compile the project in console:
 
-1. Make sure you are using Java 1.8 (To switch to 1.8 Mac users may run next command: "export JAVA_HOME=`/usr/libexec/java_home -v 1.8`", if you have installed Java 1.8 before)
-2. Go to command_line_project dir: "cd command_line_project"
-3. Compile:
-	javac -cp "./*" Main.java AnticaptchaTask.java AnticaptchaResult.java AnticaptchaApiWrapper.java AntigateHttpRequest.java AntigateHttpResponse.java AntigateHttpHelper.java
+1. Make sure you are using Java 1.8:
+$ javac -version
+if you installed Java 1.8 before, but previous command gives you "1.7", switch to 1.8 (for Mac users):
+$ export JAVA_HOME=`/usr/libexec/java_home -v 1.8`, if you have installed Java 1.8 before
 
-4. Run:
-	java -cp "./*" Main
+2. Compile:
+$ javac -cp "libs/*" src/com/anti_captcha/AnticaptchaBase.java src/com/anti_captcha/Main.java src/com/anti_captcha/IAnticaptchaTaskProtocol.java src/com/anti_captcha/Api/ImageToText.java src/com/anti_captcha/Api/NoCaptcha.java src/com/anti_captcha/Api/NoCaptchaProxyless.java src/com/anti_captcha/ApiResponse/BalanceResponse.java src/com/anti_captcha/ApiResponse/CreateTaskResponse.java src/com/anti_captcha/ApiResponse/TaskResultResponse.java src/com/anti_captcha/Helper/DebugHelper.java src/com/anti_captcha/Helper/HttpHelper.java src/com/anti_captcha/Helper/JsonHelper.java src/com/anti_captcha/Helper/StringHelper.java src/com/anti_captcha/Http/HttpRequest.java src/com/anti_captcha/Http/HttpResponse.java
+
+3. Run:
+$ java -cp "src:libs/*" com.anti_captcha.Main

@@ -1,5 +1,5 @@
-You need a Java 1.8.
-The project is compatible with IntelliJ IDEA and Eclipse.
+You need Java 1.8 installed.
+This is an IntelliJ IDEA project and it should be compatible with Eclipse (but not tested).
 
 If you want to compile the project in console:
 

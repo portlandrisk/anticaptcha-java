@@ -1,0 +1,15 @@
+/Users/ben/development/projects/anticaptcha-java/src/main/java/com/anti_captcha/Helper/JsonHelper.java
+/Users/ben/development/projects/anticaptcha-java/src/main/java/com/anti_captcha/Http/HttpResponse.java
+/Users/ben/development/projects/anticaptcha-java/src/main/java/com/anti_captcha/Http/HttpRequest.java
+/Users/ben/development/projects/anticaptcha-java/src/main/java/com/anti_captcha/Api/NoCaptcha.java
+/Users/ben/development/projects/anticaptcha-java/src/main/java/com/anti_captcha/ApiResponse/CreateTaskResponse.java
+/Users/ben/development/projects/anticaptcha-java/src/main/java/com/anti_captcha/Helper/HttpHelper.java
+/Users/ben/development/projects/anticaptcha-java/src/main/java/com/anti_captcha/Api/ImageToText.java
+/Users/ben/development/projects/anticaptcha-java/src/main/java/com/anti_captcha/ApiResponse/BalanceResponse.java
+/Users/ben/development/projects/anticaptcha-java/src/main/java/com/anti_captcha/Api/NoCaptchaProxyless.java
+/Users/ben/development/projects/anticaptcha-java/src/main/java/com/anti_captcha/Helper/DebugHelper.java
+/Users/ben/development/projects/anticaptcha-java/src/main/java/com/anti_captcha/ApiResponse/TaskResultResponse.java
+/Users/ben/development/projects/anticaptcha-java/src/main/java/com/anti_captcha/IAnticaptchaTaskProtocol.java
+/Users/ben/development/projects/anticaptcha-java/src/main/java/com/anti_captcha/AnticaptchaBase.java
+/Users/ben/development/projects/anticaptcha-java/src/main/java/com/anti_captcha/Helper/StringHelper.java
+/Users/ben/development/projects/anticaptcha-java/src/main/java/com/anti_captcha/Main.java

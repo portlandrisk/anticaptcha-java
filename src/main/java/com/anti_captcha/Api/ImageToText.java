@@ -95,4 +95,8 @@ public class ImageToText extends AnticaptchaBase implements IAnticaptchaTaskProt
     public void setBodyBase64(String bodyBase64) {
         this.bodyBase64 = bodyBase64;
     }
+
+    public void setCase_(Boolean case_) {
+        this.case_ = case_;
+    }
 }
